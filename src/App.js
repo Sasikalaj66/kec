@@ -3,15 +3,15 @@ import './App.css';
 import TestComponent from './component/functionalComp/testComp';
 import ReiteratingClassComp from './component/classComp/testClassComp';
 import PropsComponent from './component/functionalComp/PropsComponent';
-
+import StateComponent from './component/classComp/StateComponent';
 function App() {
   return (
     <div className="App">
       <ReiteratingClassComp/>
       <TestComponent/>
-    
       <header className="App-header">
-      <PropsComponent name="sasi" course="Mern" /> 
+      <PropsComponent name="sasi" course="Mern" />
+      <StateComponent /> 
 
         <img src={logo} className="App-logo" alt="logo" />
 
