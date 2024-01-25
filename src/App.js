@@ -2,15 +2,19 @@ import logo from './logo.svg';
 import './App.css';
 import TestComponent from './component/functionalComp/testComp';
 import ReiteratingClassComp from './component/classComp/testClassComp';
+import PropsComponent from './component/functionalComp/PropsComponent';
 
 function App() {
   return (
     <div className="App">
       <ReiteratingClassComp/>
-      <header className="App-header">
       <TestComponent/>
+    
+      <header className="App-header">
+      <PropsComponent name="sasi" course="Mern" /> 
+
         <img src={logo} className="App-logo" alt="logo" />
-        
+
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

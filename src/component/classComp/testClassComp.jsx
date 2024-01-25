@@ -1,11 +1,11 @@
 import React from "react";
-import TestComp1 from "../functionalComp/testComp";
+//import TestComp1 from "../functionalComp/testComp";
 
 class ReiteratorComp extends React.Component {
   render() {
     return (
       <div>
-        <TestComp1/>
+       {/*} <TestComp1/> */}
         <p>Reiterating Class Component</p>
       </div>
     );
