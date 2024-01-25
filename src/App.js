@@ -10,6 +10,8 @@ import Home from './component/functionalComp/Home';
 import About from './component/functionalComp/About';
 import Achievement from './component/functionalComp/Achievement';
 import Contact from './component/functionalComp/Contact';
+import Content from './component/functionalComp/Content';
+import Footer from './component/functionalComp/Footer';
 
 
 
@@ -22,16 +24,15 @@ function App() {
       <Route path = "/" element = {<Home/>}></Route>
         <Route path = "/about" element = {<About/>}></Route>
         <Route path = "/achievement" element = {<Achievement/>}></Route>
-        <Route path = "/Login" element = {<Contact/>}></Route>
+        <Route path = "/contact" element = {<Contact/>}></Route>
       </Routes>
-      
       </BrowserRouter>
       {/*<PropsComponent name="sasi" course="Mern" /> */}
       {/*<ReiteratingClassComp/> */}
       {/*<TestComponent/> */}
-      <header className="App-header">
-
+      
         {/*<StateComponent /> */}
+       {/* <header className="App-header">
 
         <img src={logo} className="App-logo" alt="logo" />
 
@@ -46,7 +47,11 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> /*/}
+      <Content/>
+      <BrowserRouter>
+    <Footer/>  
+      </BrowserRouter>
     </div>
   );
 }

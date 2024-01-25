@@ -1,0 +1,19 @@
+.Footer{
+    background-color: pink;
+    color:rgb(232, 47, 47);
+    position: fixed;
+    width:110px;
+    text-align:justify;
+    padding: 20px;
+    font-style: normal;
+    display:flex ;
+    justify-content:space-evenly ;
+    
+}
+p{
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    color:rgb(43, 5, 77);
+
+}

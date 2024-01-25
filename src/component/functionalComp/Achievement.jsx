@@ -1,7 +1,7 @@
 const Achievement=()=>{
     return(
         <div>
-            <h1>This page is meant for my Achievements</h1>
+            <h2>This page is meant for my Achievements</h2>
         </div>
     )
 }

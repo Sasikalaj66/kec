@@ -2,4 +2,7 @@ ul{
     display:flex;
     justify-content: space-evenly;
     background-color:hotpink;
+    padding:10px;
+    
 }
+

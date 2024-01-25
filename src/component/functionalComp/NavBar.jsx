@@ -1,4 +1,5 @@
-import "../../css/NavBar.css"
+
+import "../../css/NavBar.css" //This type of import for CSS file 
 import { Link } from "react-router-dom";
 const NavBar = () => {
     return( //Here instead of nav tag we shall use ol,ul tags also
