@@ -3,9 +3,16 @@
 import React from "react";
 
 function TestComp1(){
+
+  const styleAttrs={
+    backgroundColor:"brown",
+    color:"blue"
+}
   return(
-    <div>
+    <div style={styleAttrs}> {/* Internal */}
+    <div style={{backgroundColor:"red"}}>{/*//Here color code is not applicable - Inline */}
       <p>Reiterating Functional Component</p>
+    </div>
     </div>
   )
 }
