@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 //import TestComponent from './component/functionalComp/testComp';
 //import ReiteratingClassComp from './component/classComp/testClassComp';
@@ -32,9 +32,9 @@ function App() {
       {/*<TestComponent/> */}
       
         {/*<StateComponent /> */}
-       {/* <header className="App-header">
+       <header className="App-header">
 
-        <img src={logo} className="App-logo" alt="logo" />
+        {/*<img src={logo} className="App-logo" alt="logo" />
 
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -46,12 +46,12 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
-      </header> /*/}
+  </a>*/}
+      </header> 
       <Content/>
-      <BrowserRouter>
-    <Footer/>  
-      </BrowserRouter>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }
