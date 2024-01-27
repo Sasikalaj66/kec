@@ -6,8 +6,8 @@ import "../../css/Footer.css"
 function Footer() {
   return (
     <div className="main-footer" >
-      <div className="container">
-        <div className="row">
+      <div className="container" >
+        <div className="row"  style={{display:"flex",justifyContent:"space-evenly"}}>
           {/* Column1 */}
           <div className="col" >
             <h4>ADDRESS</h4>
@@ -38,7 +38,7 @@ function Footer() {
           </p>
         </div>
       </div>
-    </div>
+    //</div>
   );
 }
 
