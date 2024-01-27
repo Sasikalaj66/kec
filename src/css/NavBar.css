@@ -1,8 +1,14 @@
-ul{
+ol{
     display:flex;
     justify-content: space-evenly;
     background-color:hotpink;
+    color:brown;
     padding:10px;
-    
+    list-style: none;
+    text-decoration:none;    
+}
+.Link{
+    text-decoration: none;
+    color:black;
 }
 

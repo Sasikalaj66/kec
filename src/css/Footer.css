@@ -1,19 +1,33 @@
-.Footer{
-    
-    background-color: pink;
-    color:rgb(232, 47, 47);
-    position: fixed;
-    width:110px;
-    text-align:justify;
-    padding: 20px;
-    font-style: normal;
-    
-}
-p{
-   
+
+/*ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: oblique;
     color:rgb(43, 5, 77);
-    background-color:lightslategrey;
+    background-color:hotpink;
 
+}*/
+
+.main-footer {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    color:black;
+    background-color:hotpink;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:hotpink;
+    color:black;
+    padding:10px;
+    list-style: none;
+    text-decoration:none;    
 }

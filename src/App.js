@@ -12,29 +12,42 @@ import Achievement from './component/functionalComp/Achievement';
 import Contact from './component/functionalComp/Contact';
 import Content from './component/functionalComp/Content';
 import Footer from './component/functionalComp/Footer';
-
+import Login from './component/functionalComp/Login';
+import Signup from './component/functionalComp/Signup';
 
 
 function App() {
   return (
+
     <div className="App">
+
       <BrowserRouter>
-      <NavBar />   
-      <Routes>        
-      <Route path = "/" element = {<Home/>}></Route>
-        <Route path = "/about" element = {<About/>}></Route>
-        <Route path = "/achievement" element = {<Achievement/>}></Route>
-        <Route path = "/contact" element = {<Contact/>}></Route>
-      </Routes>
+        <NavBar />
+        <Routes>
+
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/achievement" element={<Achievement />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/Signup" element={<Signup />}></Route>
+
+        </Routes>
+        <Content />
+
       </BrowserRouter>
+
+
+
+
       {/*<PropsComponent name="sasi" course="Mern" /> */}
       {/*<ReiteratingClassComp/> */}
       {/*<TestComponent/> */}
-      
-        {/*<StateComponent /> */}
-       <header className="App-header">
 
-        {/*<img src={logo} className="App-logo" alt="logo" />
+      {/*<StateComponent /> */}
+      {/*<header className="App-header">
+
+        <img src={logo} className="App-logo" alt="logo" />
 
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -46,14 +59,24 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-  </a>*/}
-      </header> 
-      <Content/>
-      <footer>
+          
+  </a>
+  
+  </header>*/}
+     
         <Footer/>
-      </footer>
+      
+      
+
+
+
+
+
+
     </div>
   );
 }
 
 export default App;
+
+
