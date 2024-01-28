@@ -11,7 +11,7 @@ const Reference=()=>{
         <div>
             <h1>Example of UseRef</h1>
             <input type="text" onChange={(event)=>{updatebatchsize(event.target.value)}}/>
-            <h2>The text typed is {batchSize} and it's previous text is {prevBatch.current}</h2>
+            <h2>The current batch2 size is {batchSize} and it's previous batch2 size is {prevBatch.current}</h2>
 
         </div>
 
