@@ -4,6 +4,7 @@ import './App.css';
 //import ReiteratingClassComp from './component/classComp/testClassComp';
 //import PropsComponent from './component/functionalComp/PropsComponent';
 //import StateComponent from './component/classComp/StateComponent';
+
 import NavBar from './component/functionalComp/NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './component/functionalComp/Home';
