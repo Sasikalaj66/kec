@@ -1,5 +1,5 @@
 ol{
-    display:flex;
+    /* display:flex; */
     justify-content: space-evenly;
     background-color:hotpink;
     color:brown;

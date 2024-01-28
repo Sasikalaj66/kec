@@ -16,6 +16,8 @@ import Footer from './component/functionalComp/Footer';
 import Login from './component/functionalComp/Login';
 import Signup from './component/functionalComp/Signup';
 import Reference from './component/functionalComp/Reference';
+import Memo from './component/functionalComp/Memo';
+import Callback from './component/functionalComp/Callback';
 
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
           <Route path="/login" element={<Login />}></Route>
           <Route path="/Signup" element={<Signup />}></Route>
           <Route path="/ref" element={<Reference/>}></Route>
+          <Route path="/memo" element={<Memo/>}></Route>
+          <Route path="/callback" element={<Callback/>}></Route>
 
         </Routes>
         <Content />
