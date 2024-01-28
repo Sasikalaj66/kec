@@ -2,7 +2,15 @@ const Achievement=()=>{
     return(
         <div>
             <br />
-            <h2>This page is meant for my Achievements</h2>
+            <h2>Achievements</h2>
+           
+            <p>
+                •School II in my Higher Secondary Examination. 
+                <br /><br />
+                •Academic Excellence Award during the year 2021-2022.
+                <br />
+            </p>
+       
         </div>
     )
 }

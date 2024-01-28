@@ -1,3 +1,5 @@
+
+//USESTATE
 /*import { useState } from "react";
 const About=()=>{
     const [college,updateCollege]=useState("KEC")
@@ -16,7 +18,7 @@ export default About;*/
 
 //USEEFFECT:
 //Example....Affect from cold
-import { useEffect, useState } from "react";
+/*import { useEffect, useState } from "react";
 const About = () => {
     const [tabName, setTabName] = useState("Welcome to cold club take this table Citricin and cure it")
     const updateTablet = () => {
@@ -44,6 +46,41 @@ return (
         <button onClick={updateTablet2}>Click me if you get seizure</button>
     </div>
 )
+}
+export default About;
+*/
+
+const About=()=>{
+    return(
+        <div>
+            <br />
+            <h2>CARRIER OBJECTIVE</h2>
+        <p>Aspiring to take responsibilities , regardless of the challenges , to achieve the set goal for the organization and seeks growth 
+            on career from learning , explore new dimensions and to refine my capabilities from the new exposure of the organization.</p>
+            <h2>ACADEMIC PROFILE</h2>
+        <p>
+            •Pursuing B.E in Electronics and Communication Engineering at 
+             Kongu Engineering College,Perundurai,with a CGPA of 8.79 till IV Semester.  
+         <br />
+            •93.6% - HSC - Government Model Higher Secondary School. 
+           <br />
+            •89.6% - SSLC – Government Higher Secondary School.  
+            <br />
+        </p>
+        <h2>IN-PLANT TRAINING</h2>
+        <p>
+            “SWELECT POWER SYSTEM LIMITED” in Idappadi on August 2022 (3 days)
+        </p>
+        <h3>Paper 1</h3>
+            <p>Paper on “Power Generation from Dance Floor” in SPAVE – 2K22 at Kongu Engineering College.</p>
+       
+        <h3>Paper 2</h3>
+            <p>Paper on “Eye Directive Wheelchair” in SRISHTI 2K22 at PSG college of Technology , Coimbatore.</p>
+       
+        <h3>Paper 2</h3>
+            <p>Paper on “Effect of Hydrogen addition on diesel Engine” in MECHANICA 2K22 at IIT , Chennai.</p>
+        </div>
+    )
 }
 export default About;
 
