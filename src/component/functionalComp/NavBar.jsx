@@ -11,6 +11,7 @@ const NavBar = () => {
             <li><Link to = "/contact" class="Link">Contact</Link></li>
             <li><Link to = "/login" class="Link">Login</Link></li>
             <li><Link to = "/signup" class="Link">Signup</Link></li>
+            <li><Link to = "/ref" class="Link">Reference</Link></li>
         </ol>
 
     )

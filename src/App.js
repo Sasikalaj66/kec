@@ -14,6 +14,7 @@ import Content from './component/functionalComp/Content';
 import Footer from './component/functionalComp/Footer';
 import Login from './component/functionalComp/Login';
 import Signup from './component/functionalComp/Signup';
+import Reference from './component/functionalComp/Reference';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/Signup" element={<Signup />}></Route>
+          <Route path="/ref" element={<Reference/>}></Route>
 
         </Routes>
         <Content />
